@@ -1,0 +1,354 @@
+/* #body_content {
+	width:100%;
+    border-radius: 5px;
+    padding: 50px 40px; 
+}
+
+#links{
+	color:#008040;
+	margin: 0 350px 20px;
+	font-size: 250%;
+} */
+
+a:link,a:visited {
+	color:#008040;
+}
+
+.logout_header{
+	float: right;
+    margin: 0 0 10px 10px;
+ 
+}
+
+.name_header{
+	float: left;
+    margin: 0 0 10px 10px;
+ 	color: #008040;
+}
+
+.hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    clear:right;
+    clear:left;
+}
+/*----------------------Login page------------------------*/
+/*--------------------------------------------------------*/
+
+.login-body_content{
+	width:100%;
+    border-radius: 5px;
+    padding: 50px 40px; 
+}
+
+.login-label{
+	color: #008040;
+	margin: 10px 500px;
+	font-family: Sans-serif;
+}
+
+.login-text-box{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 500px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-Btn{
+	width: 8%;
+    background-color: #008040;
+    color: white;
+    padding: 10px 20px 14px 15px;
+    margin: 0 600px;
+    border: none;
+    cursor: pointer;
+    font-family: "Verdana";
+    font-size:11pt;		
+}
+
+.login-info{
+	color: #008040;
+	margin: 10px 50px;
+	font-family: Sans-serif;
+	font-size:40%;
+}
+
+.login-Btn:hover{
+	 background-color:#00ae57;
+}
+
+/*------------------end Login page--------------------*/
+
+
+/*-----------------------Error Login Again page------------*/
+/*---------------------------------------------------------*/
+
+.error-info{
+	color: #008040;
+	margin: 10px 50px;
+	font-family: Sans-serif;
+	font-size:100%;
+}
+/*-----------------------end Error Login Again page------------*/
+
+
+/*----------------------Dashboard page---------------------------*/
+/*---------------------------------------------------------------*/
+.db-header-label{
+	color: #008040;
+	cursor: pointer;
+	
+}
+
+.db-body-content{
+	
+	width: auto;
+	height:auto;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-left: 20px
+
+}
+
+
+
+/*----------------------end Dashboard page---------------------------*/
+
+
+/*--------------------------Inbox View--------------------------------*/
+/*--------------------------------------------------------------------*/
+
+.Itable {
+	width: 100%;
+	height:auto;
+    border: 1px solid #ccc;
+   border-collapse: collapse;
+    padding: 25px;
+    margin-left: 0px
+}
+.Itd {
+	border: 1px solid #ccc;
+	padding: 12px 20px;
+	
+}
+.Ith {
+	color: #008040;
+	border: 1px solid #ccc;
+	padding: 12px 15px;
+	font-size: 15px;
+}
+
+.no-message{
+	color: #008040;
+	margin: 80px 230px;
+}
+
+/*------------------------Compose page------------------------*/
+/*------------------------------------------------------------*/
+.comp-header-label{
+	color: #008040;
+}
+
+.comp-form{
+		width: 800px;
+	height:650px;
+}
+.comp-body-content{
+	width: 800px;
+	height:650px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-left: 230px
+}
+
+.comp-label{
+	color: #008040;
+	margin: 10px 3px;
+	font-family: Sans-serif;
+}
+.comp-label1{
+	color: #008040;
+	margin: 5px 13px;
+	font-family: Sans-serif;
+	
+}
+.comp-text-box{
+	width: 50%;
+    padding: 12px 20px;
+    margin: 0 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.comp-select{
+	width: 50%;
+    padding: 12px 20px;
+    margin: 0 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+
+.comp-txt-area{
+	width: 100%;
+	height: 55%;
+    padding: 12px 20px;
+    margin: 0 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+}
+
+.comp-btn{
+	width: 9%;
+    background-color: #008040;
+    color: white;
+    padding: 10px 20px 14px 15px;
+    margin: 10px 350px;
+    border: none;
+    cursor: pointer;
+    font-family: "Verdana";
+    font-size:11pt;	
+	
+}
+
+.comp-btn:hover{
+	 background-color:#00ae57;
+}
+
+/*------------------------end Compose page------------------------*/
+
+
+
+/*------------------Register ID page--------------------*/
+/*------------------------------------------------------*/
+.reg_id-header{
+	color:#008040;
+	margin: 0 500px 20px;
+	font-size: 220%;
+}
+
+.reg_id-body_content{
+	width:100%;
+    border-radius: 5px;
+    padding: 50px 40px; 	
+}
+
+.reg_id-label{
+	color: #008040;
+	margin: 10px 500px;
+	font-family: Sans-serif;
+	
+}
+
+.reg_id-text-box{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 500px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reg_id-Btn{
+	width: 8%;
+    background-color: #008040;
+    color: white;
+    padding: 10px 20px 14px 15px;
+    margin: 0 600px;
+    border: none;
+    cursor: pointer;
+    font-family: "Verdana";
+    font-size:11pt;		
+}
+
+.reg_id-Btn:hover{
+	 background-color:#00ae57;
+}
+
+
+.reg_id-info{
+	color:#008040;
+	 margin: 8px 150px;
+	font-family: Sans-serif;	
+}
+
+/*------------------end Register ID page--------------------*/
+
+
+/*---------------Register Password page--------------------*/
+/*---------------------------------------------------------*/
+
+.reg_pwd-body_content{
+	width:100%;
+    border-radius: 5px;
+    padding: 80px 40px; 
+}
+
+.reg_pwd-label{
+	color: #008040;
+	margin: 10px 500px;
+	font-family: Sans-serif;
+}
+
+.reg_pwd-text-box{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 500px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reg_pwd-Btn{
+	width: 8%;
+    background-color: #008040;
+    color: white;
+    padding: 10px 20px 14px 15px;
+    margin: 0 600px;
+    border: none;
+    cursor: pointer;
+    font-family: "Verdana";
+    font-size:11pt;		
+}
+
+.reg_pwd-Btn:hover{
+	 background-color:#00ae57;
+}
+
+
+.reg_pwd-info{
+	color: #008040;
+	margin: 5px 50px;
+	font-family: Sans-serif;
+	font-size:100%;
+}
+
+/*---------------end Register passwords page-----------------*/
+
+/*--------------------Upload Details page---------------------*/
+/*------------------------------------------------------------*/
+
+.up_Details-info{
+	color: #008040;
+	margin: 250px 500px;
+	font-family: Sans-serif;
+	font-size:100%;
+}
+
+/*--------------end Upload Details page-----------------*/

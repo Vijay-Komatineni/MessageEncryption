@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register Email-ID</title>
+<link rel="stylesheet" href="external.css"/>
+</head>
+<header><h1 ><a href="login.html">Login</a>|<a href="register_id.html">Register</a></h1></header>
+<body>
+<h1 class="reg_id-header"><u>Choose an email address!</u></h1>
+<div class="reg_id-body_content">
+
+ <form id="regID" action="" >
+    <input type="hidden" id="hidden-value" name="hidden-emailid" value=""/>
+    <h3 class="reg_id-label">Email</h3>
+    <input class="reg_id-text-box" type="email" name="uEmail" id="uEmail" placeholder="Email" required autofocus><br/>
+    
+    <br/><br/>
+    <input class="reg_id-Btn" id="regId-Btn" type="button" onclick="checkAvail()" value="Check" title="Check if ID is available"/>
+  </form>
+  <label id="error" class="reg_id-info"></label>
+</div>
+
+</body>
+<script src="external.js"></script>
+</html>
